@@ -1,0 +1,335 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.top-bar {
+    background: rgba(5, 23, 45, 0.9);
+    color: white;
+    position: fixed;
+    padding: 0;
+    height: 88px;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+} /* 设置固定高度，移除padding */
+
+.top-bar .logo {
+    position: relative;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: auto; /* logo图片紧贴左侧，高度与.top-bar相同，宽度自动调整 */
+}
+
+.top-bar .logo img {
+    height: 100%;
+    width: auto; /* logo图片高度与.top-bar相同，宽度自动调整 */
+}
+
+.top-bar .recruitment {
+    position: absolute;
+    right: 20px; /* 距离容器右侧20px */
+    top:   28px; /* 距离容器顶部20px */
+    margin: 0; /* 移除默认的外边距 */
+}
+
+.top-bar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.top-bar a:hover {
+    background: #08406e;
+}
+/*背景图*/
+.background-image {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    transition: background-image 1s ease-in-out; /* 平滑过渡效果 */
+  }
+  
+  .culture {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+  }
+  
+  .title h2 {
+    font-size: 2em;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .image-dots-container {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 5px;
+  }
+  
+  .dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ccc;
+    cursor: pointer;
+  }
+  
+  .dot.active {
+    background-color: #fff;
+  }
+
+  
+/*背景图招聘*/
+.background-image {
+    background-image: url('./6.jpg');
+    height: 700px;
+    background-size: cover;
+}
+
+.culture {
+    text-align: center;
+    padding: 50px 20px; /* 增加内边距 */
+    color: white;
+    font-size: 18px;
+     /* 半透明背景，增加层次感 */
+}
+
+.title h2 {
+    color: #0000ff; /* 设置为蓝色 */
+    font-size: 38px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.content {
+    max-width: 600px; /* 限制内容宽度，使其更易于阅读 */
+    margin: 0 auto; /* 居中对齐 */
+    line-height: 1.6; /* 增加行高 */
+}
+
+.content p {
+    margin-bottom: 15px; /* 增加段落间距 */
+}
+
+.content b {
+    color: #f4f808; /* 突出显示邮箱地址 */
+}
+
+/* 添加一些视觉元素 */
+.culture::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(to right, transparent, white, transparent);
+    margin-bottom: 30px;
+}
+
+.culture::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(to right, transparent, white, transparent);
+    margin-top: 30px;
+}
+
+/* Below is the code of c:\Users\王聪1\Desktop\网站\index.html */
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 188px;
+    background: rgb(2, 2, 81);
+    padding: 0 50px; /* 左右保持一定的距离 */
+}
+
+#footer-left, #footer-right {
+    flex: 1; /* 使两个部分平均分配空间 */
+    background: none; /* 移除背景色，由父容器统一控制 */
+}
+
+.pt10 {
+    padding-top: 10px;
+}
+
+.pl50 {
+    padding-left: 38px;
+    position: relative;
+}
+
+.font1 {
+    font-size: 12px;
+}
+
+.cl-808080 {
+    color: #808080;
+}
+
+.mt18 {
+    margin-top: 18px;
+}
+
+.mr65 {
+    margin-right: 65px;
+}
+
+.pb20 {
+    padding-bottom: 10px;
+}
+
+.QRCode {
+    width: 93px;
+    text-align: center;
+}
+
+.font12 {
+    font-size: 12px; /* 确保这个类名在HTML中被使用 */
+}
+
+.cl-666 {
+    color: #666;
+}
+
+/*关于我们*/
+.pull-right {
+    margin: 8px;
+    padding: 3px;
+    float: right !important;
+    text-align: left;
+    position: relative;
+    right: 18px;
+   
+}
+
+
+
+/* 尾部声明 */
+#footer-2 p {
+    width: 100%;
+    text-align: left;
+    padding-bottom: 0;
+}
+.content {
+    position: relative;
+    width: 100%;
+    max-width: 980px;
+    margin: 0 auto;
+}
+.font12 {
+    font-size: 12px;
+    color: #999;
+    float: left !important;
+    line-height: 21px;
+    
+}
+
+
+/* 弹窗 */
+
+
+.popup-container {
+    display: flex;
+    align-items: center; /* 垂直居中 */
+    justify-content: center; /* 水平居中 */
+    position: fixed;
+    left: 30%;
+    top: 98px;
+    bottom: 60px;
+    /* width: 100%;
+    height: 100%; */
+    background-color: transparent; /* 设置为透明 */
+    z-index: 1000; /* 确保弹窗在最上层 */
+}
+
+.popup-content {
+    background-color: #cbcbf2;
+    padding: 2em;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 90%; /* 最大宽度为视口宽度的90% */
+    width: 100%; /* 宽度为100%，但不会超过max-width */
+    max-height: 90%; /* 最大高度为视口高度的90% */
+    overflow-y: auto; /* 如果内容超出高度，显示滚动条 */
+    text-align: left;
+    font-size: 16px; /* 基础字体大小 */
+}
+
+@media (min-width: 768px) {
+    .popup-content {
+        width: 50%; /* 桌面视图宽度 */
+        font-size: 18px; /* 桌面视图字体大小 */
+    }
+}
+
+.close-btn {
+    cursor: pointer;
+    float: right;
+    font-size: 25px;
+    font-weight: bold;
+    color: #aaa;
+}
+
+.close-btn:hover {
+    color: #666;
+}
+
+.popup-h2 {
+    color: #333;
+    margin-top: 0;
+    text-align: center;
+}
+
+.popup-h3 {
+    color: #555;
+}
+
+.popup-ul {
+    padding-left: 20px;
+}
+/* 按钮样式 */
+.popup-btn-container{
+    left:30%;
+    position: relative;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #d11d23;
+    outline: none;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    justify-content: center; /* 水平居中 */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button + button {
+    margin-left: 30px;
+}
+
+.accept-btn {
+    background-color: #a12079;
+    margin-right: 18px;
+}
+
+.accept-btn:hover {
+    background-color: #218838;
+}
