@@ -2,47 +2,6 @@ body {
     font-family: Arial, sans-serif;
 }
 
-.top-bar {
-    background: rgba(5, 23, 45, 0.9);
-    color: white;
-    position: fixed;
-    padding: 0;
-    height: 88px;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
-}
-
-.top-bar .logo {
-    position: relative;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: auto;
-}
-
-.top-bar .logo img {
-    height: 100%;
-    width: auto;
-}
-
-.top-bar .recruitment {
-    position: absolute;
-    right: 20px;
-    top: 28px;
-    margin: 0;
-}
-
-.top-bar a {
-    color: white;
-    text-decoration: none;
-    padding: 10px 20px;
-}
-
-.top-bar a:hover {
-    background: #08406e;
-}
-
 /*背景图*/
 .background-image {
     height: 100vh;
@@ -53,10 +12,17 @@ body {
     background-size: cover;
     transition: background-image 1s ease-in-out;
 }
+/*背景图招聘*/
+.background-image {
+    background-image: url('./beijingtu8.WebP');
+    height: 100vh;
+    /* 确保背景图覆盖整个视口高度 */
+    background-size: cover;
+}
 
 .culture {
     position: absolute;
-    top: 58%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -86,13 +52,7 @@ body {
     cursor: pointer;
 }
 
-/*背景图招聘*/
-.background-image {
-    background-image: url('./beijingtu8.WebP');
-    height: 100vh;
-    /* 确保背景图覆盖整个视口高度 */
-    background-size: cover;
-}
+
 
 .culture {
     position: absolute;
