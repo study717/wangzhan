@@ -2,6 +2,8 @@ body {
     font-family: Arial, sans-serif;
 }
 
+
+
 /*背景图*/
 .background-image {
     height: 100vh;
@@ -26,6 +28,10 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    padding: 10px;
+        /* 增加内边距 */
+        margin-top: 38px;
+        /* 增加顶部边距 */
     color: white;
 }
 
@@ -148,52 +154,7 @@ body {
     /* 设置图片高度 */
 }
 
-/* #footer-left,
-#footer-right {
-    flex: 1;
-}
 
-.pt10 {
-    padding-top: 10px;
-}
-
-.pl50 {
-    padding-left: 38px;
-    position: relative;
-}
-
-.font1 {
-    font-size: 12px;
-}
-
-.cl-808080 {
-    color: #808080;
-}
-
-.mt18 {
-    margin-top: 18px;
-}
-
-.mr65 {
-    margin-right: 65px;
-}
-
-.pb20 {
-    padding-bottom: 10px;
-}
-
-.QRCode {
-    width: 93px;
-    text-align: center;
-}
-
-.font12 {
-    font-size: 12px;
-}
-
-.cl-666 {
-    color: #666;
-} */
 
 /*尾部声明*/
 #footer-2 p {
@@ -216,98 +177,3 @@ body {
     line-height: 21px;
 }
 
-/*弹窗*/
-/* .popup-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: fixed;
-    left: 30%;
-    top: 98px;
-    bottom: 60px;
-    background-color: transparent;
-    z-index: 1000;
-}
-
-.popup-content {
-    background-color: #cbcbf2;
-    padding: 2em;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    max-width: 90%;
-    width: 100%;
-    max-height: 90%;
-    overflow-y: auto;
-    text-align: left;
-    font-size: 16px;
-}
-
-@media (min-width: 768px) {
-    .popup-content {
-        width: 50%;
-        font-size: 18px;
-    }
-}
-
-.close-btn {
-    cursor: pointer;
-    float: right;
-    font-size: 25px;
-    font-weight: bold;
-    color: #aaa;
-}
-
-.close-btn:hover {
-    color: #666;
-}
-
-.popup-h2 {
-    color: #333;
-    margin-top: 0;
-    text-align: center;
-}
-
-.popup-h3 {
-    color: #555;
-}
-
-.popup-ul {
-    padding-left: 20px;
-}
-
-/*按钮样式*/
-/* .popup-btn-container {
-    left: 30%;
-    position: relative;
-}
-
-button {
-    padding: 10px 20px;
-    cursor: pointer;
-    border: none;
-    border-radius: 5px;
-    font-size: 1em;
-    color: #fff;
-    background-color: #d11d23;
-    outline: none;
-    transition: background-color 0.3s ease;
-    margin-top: 20px;
-    justify-content: center;
-}
-
-button:hover {
-    background-color: #0056b3;
-}
-
-button+button {
-    margin-left: 30px;
-}
-
-.accept-btn {
-    background-color: #a12079;
-    margin-right: 18px;
-}
-
-.accept-btn:hover {
-    background-color: #218838;
-}  */
