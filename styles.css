@@ -88,7 +88,7 @@ body {
 
 /*背景图招聘*/
 .background-image {
-    background-image: url('./6.jpg');
+    background-image: url('./8.jpg');
     height: 100vh;
     /* 确保背景图覆盖整个视口高度 */
     background-size: cover;
