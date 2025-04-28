@@ -13,7 +13,13 @@ body {
     background-size: cover;
     transition: background-image 1s ease-in-out;
 }
-
+/*背景图招聘*/
+.background-image {
+    background-image: url('./beijingtu8.WebP');
+    height: 100vh;
+    /* 确保背景图覆盖整个视口高度 */
+    background-size: cover;
+}
 .culture {
     position: absolute;
     top: 50%;
