@@ -3,7 +3,6 @@ body {
 }
 
 
-
 /*背景图*/
 .background-image {
     height: 100vh;
@@ -13,13 +12,6 @@ body {
     background-position: center;
     background-size: cover;
     transition: background-image 1s ease-in-out;
-}
-/*背景图招聘*/
-.background-image {
-    background-image: url('./beijingtu8.WebP');
-    height: 100vh;
-    /* 确保背景图覆盖整个视口高度 */
-    background-size: cover;
 }
 
 .culture {
@@ -132,7 +124,7 @@ body {
     align-items: center;
     height: 118px;
     background: rgb(6, 6, 60);
-    padding: 0 50px;
+    padding: 18px 50px;
 }
 
 .center-image {
@@ -154,6 +146,8 @@ body {
     /* 设置图片高度 */
 }
 
+/* 尾部声明*/
+
 /* 尾部声明样式 */
 #footer-2 {
     background: rgb(6, 6, 60);
@@ -173,7 +167,7 @@ body {
 #footer-2 p {
     width: 100%;
     text-align: left;
-    padding: 20px 15px;
+    padding: 10px 13px 15px;
     /* 添加左右内边距 */
     margin: 0;
     /* 移除外边距 */
