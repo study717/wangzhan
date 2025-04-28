@@ -154,4 +154,43 @@ body {
     /* 设置图片高度 */
 }
 
+/* 尾部声明样式 */
+#footer-2 {
+    background: rgb(6, 6, 60);
+    /* 设置背景颜色 */
+    width: 100%;
+    /* 确保宽度为100% */
+    padding: 20px 0;
+    /* 添加一些内边距 */
+    margin-top: 0;
+    /* 确保与上部内容没有间隙 */
+    clear: both;
+    /* 清除浮动 */
+    font-family: KaiTi, 楷体, serif;
+        /* 设置字体为楷体 */
+}
 
+#footer-2 p {
+    width: 100%;
+    text-align: left;
+    padding: 18px 15px;
+    /* 添加左右内边距 */
+    margin: 0;
+    /* 移除外边距 */
+    color: #ffffff;
+    /* 设置文字颜色 */
+    font-size: 18px;
+    /* 设置字体大小 */
+   letter-spacing: 2px;
+    /* 字间距，增加可读性 */
+    line-height: 26px;
+    /* 设置行高 */
+}
+
+.content {
+    position: relative;
+    width: 100%;
+    max-width: 980px;
+    margin: 0 auto;
+    /* 水平居中 */
+}
