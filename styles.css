@@ -101,8 +101,8 @@ body {
 .email {
     text-align: center;
     /* 居中对齐 */
-    color: #f4f808;
-    /* 设置邮箱地址颜色为黄色 */
+   color: #ffd700;
+    /* 设置邮箱地址颜色为金色 */
     font-size: 20px;
 }
 
