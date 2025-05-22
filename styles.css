@@ -101,9 +101,9 @@ body {
 .email {
     text-align: center;
     /* 居中对齐 */
-   color: #ffd700;
+   color: #E8B71A;
     /* 设置邮箱地址颜色为金色 */
-    font-size: 20px;
+    font-size: 23px;
 }
 
 .mt20{
